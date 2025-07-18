@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;   
+}
+
+.container {
+    background-color: #202020;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.input-container{
+    display: flex;
+    gap: 10px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.input-container #city-input {
+    background-color: #303030;
+    padding: 10px;
+    border: 1px solid #101010;
+    flex: 1;
+    color: white;
+    border-radius: 7px;
+}
+
+#get-weather-btn {
+    background-color: #6600CC;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#get-weather-btn:hover {
+    background-color: #9900FF;
+}
+
+#weather-info {
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* #weather-info p {
+    text-align: center;
+    list-style-type: none;
+    background-color: #303030;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+} */
+
+#error-message {
+    color: red;
+}
+
+.hidden{
+    display: none;
+}
