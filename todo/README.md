@@ -1,27 +1,66 @@
-# 📝 To-Do List App
+# ✅ To-Do List App
 
-A simple and interactive to-do list built using **HTML**, **CSS**, and **Vanilla JavaScript**. It allows users to add, delete, and mark tasks as completed, with data saved in the browser using **localStorage**.
-
----
-
-## 🚀 Features
-
-- ✅ Add new tasks
-- ✅ Mark tasks as completed (with strikethrough effect)
-- ✅ Delete individual tasks
-- ✅ Store tasks in `localStorage` so they're saved even after refreshing
-- ✅ "Clear All" button to remove all tasks at once
+A minimalist and efficient **To-Do List App** built using **HTML**, **CSS**, and **JavaScript**. Users can add, complete, delete, and persist their daily tasks using `localStorage`.
 
 ---
 
-## 🧠 How It Works
+## 📦 Features
 
-- Each task is stored as an object with `id`, `text`, `isCompleted`, and `priority`.
-- Tasks are rendered dynamically using JavaScript and updated in localStorage.
-- Click on the task to toggle completion.
-- Click the delete button to remove it.
-- Select priority when adding a task — styled with different colors.
-- "Clear All" deletes all tasks and resets the list.
+-   ➕ Add tasks to your to-do list
+-   ✅ Click to mark tasks as complete/incomplete
+-   🗑️ Delete individual tasks
+-   🔁 Data is stored in `localStorage`
+-   🧹 Clear all tasks with one button
 
 ---
 
+## 🚀 Getting Started
+
+1. **Clone or download the repository:**
+
+    ```bash
+    git clone https://github.com/Ayush16110/mini-projects.git
+    cd mini-project/todo
+    ```
+
+2. **Open `index.html` in your browser:**
+
+    - Double-click `index.html`
+    - Or open with Live Server (if using VS Code)
+
+---
+
+## 🗂️ File Structure
+
+```
+todo-app/
+├── index.html      # HTML structure
+├── style.css       # Optional CSS styling
+└── script.js       # Core JavaScript logic
+```
+
+---
+
+## 🛠️ Tech Stack
+
+-   HTML5
+-   CSS3
+-   JavaScript (Vanilla)
+-   Browser `localStorage`
+
+---
+
+## 🔮 Future Enhancements
+
+-   Edit tasks inline
+-   Sort tasks by completed/pending
+-   Add due dates and reminders
+-   Drag-and-drop task reordering
+-   Dark/light mode switch
+
+---
+
+## 🙋‍♂️ Author
+
+**Ayush Gupta**  
+🔗 [GitHub](https://github.com/Ayush16110)

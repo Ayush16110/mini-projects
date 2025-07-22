@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #101010;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin: 15px 0px;
+}
+
+.container {
+    background-color: #202020;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#expense-form {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    height: 30px;
+}
+
+#expense-form input {
+    background-color: #303030;
+    padding: 10px;
+    border: 1px solid #101010;
+    flex: 1;
+    color: white;
+    border-radius: 7px;
+}
+
+#add-expense-btn {
+    background-color: #6600cc;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#expense-list {
+    width: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+#expense-list li {
+    list-style-type: none;
+    background-color: #303030;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+
+#expense-list li button {
+    color: white;
+    background-color: #d00000;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 7px;
+    cursor: pointer;
+}
